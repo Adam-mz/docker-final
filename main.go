@@ -124,7 +124,6 @@ func main() {
 		return
 	}
 
-	// изменение статуса
 	err = service.NextStatus(p.Number)
 	if err != nil {
 		fmt.Println(err)
